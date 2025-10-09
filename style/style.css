@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+body,
+html {
+  overflow-x: hidden;
   font-family: "Lato", sans-serif;
 }
 :root {
@@ -772,7 +774,7 @@ nav,
     height: 100%;
     object-fit: contain;
   }
-  .nav-links{
+  .nav-links {
     font-size: 12px;
   }
   .btn-toggler {
